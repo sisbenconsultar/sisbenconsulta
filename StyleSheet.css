@@ -1,0 +1,176 @@
+﻿.sinpadding {
+    padding: 0;
+}
+
+.noImprimir {
+    display: none
+}
+
+.hpersonal {
+    padding-top: 70px;
+    padding-left: 25px;
+    padding-bottom: 18px;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tamimg {
+    background-size: 50% 50%;
+}
+
+.cate {
+    background-image: url('../Images/categorias.png');
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+
+.ff {
+    background-color: white;
+}
+
+
+.contenedor {
+    background-color: #E4EFFB;
+    border: inherit;
+    border-radius: 20px;
+}
+
+.campo {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.campo1 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+
+.valido {
+    background-color: #346385;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.validoRed {
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+
+.etiqueta {
+    background-color: inherit;
+    color: blue;
+    font-weight: bold;
+    border: inherit;
+}
+
+.etiqueta1 {
+    background-color: inherit;
+    color: #346385;
+    font-weight: bold;
+    border: inherit;
+}
+
+.imagesobresale {
+    top: -24px;
+}
+
+.imagenpuntaje {
+    background-image: url('../Images/3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.imagenalerta {
+    background-image: url('../Images/mensaje 1-0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    background-size: 100% 100%;
+}
+
+.BordeCuadro {
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+
+.img-texto {
+    position: relative;
+    float: left;
+}
+
+    .img-texto span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: #848282;
+        padding: 60px;
+        color: #fff;
+        font-family: sans-serif;
+        opacity: 0.8;
+        font-size: 20px;
+        /* nuevos attr */
+        display: block;
+        height: 300px;
+        overflow: auto
+    }
+
+.fila {
+    display: table;
+    height: 240px;
+}
+
+.grupo {
+    padding-top: 40px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+.campo2 {
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+}
+
+.alerta {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    font-family: Arial;
+    /*text-transform: uppercase;*/
+    text-align: left;
+}
+
+
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+    color: red;
+    font-size: 20px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: black;
+}
